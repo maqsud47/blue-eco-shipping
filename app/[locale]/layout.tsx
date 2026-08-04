@@ -9,6 +9,7 @@ import { TopBar } from "@/components/layout/top-bar";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { BackToTop } from "@/components/common/back-to-top";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 
 const manrope = Manrope({
@@ -131,6 +132,7 @@ export default async function LocaleLayout({
           <Footer />
           <BackToTop />
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
