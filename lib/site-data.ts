@@ -26,7 +26,7 @@ import {
  */
 
 export const SITE = {
-  name: "Blue Eco Shipping & Logistics",
+  name: "Blu Eco Shipping & Logistics",
   established: 2026,
 } as const;
 

@@ -43,7 +43,7 @@ export function ContactForm() {
     if (v.botcheck) return; // Honeypot tripped
     const res = await submitToWeb3Forms({
       subject: `New contact — ${v.name}`,
-      from_name: `${v.name} (Blue Eco Shipping & Logistics website)`,
+      from_name: `${v.name} (Blu Eco Shipping & Logistics website)`,
       email: v.email,
       phone: v.phone,
       company: v.company,

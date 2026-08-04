@@ -72,7 +72,7 @@
 :root {
   --radius: 0.95rem; /* ~15px — rounded */
 
-  /* Blue Eco Shipping & Logistics palette — turquoise #40E0D0 + sky blue #87CEEB
+  /* Blu Eco Shipping & Logistics palette — turquoise #40E0D0 + sky blue #87CEEB
      (the two brand colors as bright accents; darker shades derived
      from the same hues for readable text/primary on white). */
   --abyss: #0a3d4a; /* deepest teal — hero/footer ground */
@@ -141,7 +141,7 @@
 
 /* ---------------------------------------------------------------
    Motion: gentle fade-up on scroll, hero rise on load, hover lifts.
-   Prefix: be- (Blue Eco Shipping & Logistics). Nothing bouncy, no parallax.
+   Prefix: be- (Blu Eco Shipping & Logistics). Nothing bouncy, no parallax.
    --------------------------------------------------------------- */
 @layer components {
   /* Scroll reveal — .be-reveal starts hidden, .is-in plays it. */

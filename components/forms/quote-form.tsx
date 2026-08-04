@@ -49,7 +49,7 @@ export function QuoteForm({ onSubmitted }: { onSubmitted?: () => void }) {
     if (v.botcheck) return;
     const res = await submitToWeb3Forms({
       subject: `New quote request — ${v.name} · ${v.service}`,
-      from_name: `${v.name} (Blue Eco Shipping & Logistics website)`,
+      from_name: `${v.name} (Blu Eco Shipping & Logistics website)`,
       email: v.email,
       phone: v.phone,
       company: v.company,

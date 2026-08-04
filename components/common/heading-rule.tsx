@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 /**
  * Signature motif: a short teal→green rule with a leaf-over-wave glyph drawn
- * from the Blue Eco Shipping & Logistics logo. Sits above each section eyebrow. Use consistently.
+ * from the Blu Eco Shipping & Logistics logo. Sits above each section eyebrow. Use consistently.
  */
 export function HeadingRule({ className }: { className?: string }) {
   return (

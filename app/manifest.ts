@@ -4,8 +4,8 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Blue Eco Shipping & Logistics",
-    short_name: "Blue Eco Shipping & Logistics",
+    name: "Blu Eco Shipping & Logistics",
+    short_name: "Blu Eco Shipping & Logistics",
     description:
       "Customs clearing & forwarding, freight and logistics in Bangladesh — efficient, transparent and eco-conscious trade solutions.",
     start_url: "/en",
