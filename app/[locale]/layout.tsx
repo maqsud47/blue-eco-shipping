@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Manrope, Space_Grotesk, Noto_Sans_Bengali } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { routing } from "@/i18n/routing";
 import { siteUrl } from "@/lib/seo";
 import { TopBar } from "@/components/layout/top-bar";
@@ -131,6 +132,7 @@ export default async function LocaleLayout({
           <Footer />
           <BackToTop />
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
