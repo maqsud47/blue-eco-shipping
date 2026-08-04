@@ -1,0 +1,475 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Blue Eco Shipping & Logistics — Customs Clearing, Freight Forwarding & Logistics in Bangladesh",
+      "description": "Bangladesh customs clearing & forwarding, freight and logistics — efficient, transparent, eco-conscious trade across Chittagong, Dhaka & Benapole."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "roadTransport": "Road Transport",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getQuote": "Get a Quote",
+    "ourServices": "Our Services",
+    "viewServices": "View Services",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn more",
+    "sendMessage": "Send Message",
+    "viewAll": "View all",
+    "callUs": "Call us",
+    "whatsapp": "WhatsApp"
+  },
+  "topbar": {
+    "hours": "24/7 support",
+    "email": "Email us"
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Menu"
+  },
+  "language": {
+    "label": "Language",
+    "en": "EN",
+    "bn": "বাং",
+    "switchToEn": "Switch to English",
+    "switchToBn": "Switch to Bangla"
+  },
+  "footer": {
+    "tagline": "Customs Clearing & Forwarding · Freight · Logistics",
+    "blurb": "Blue Eco Shipping & Logistics is a Bangladesh-based customs clearing & forwarding, freight and logistics company, delivering efficient, transparent and environmentally responsible trade solutions for importers and exporters.",
+    "servicesTitle": "Services",
+    "linksTitle": "Quick links",
+    "officesTitle": "Head office",
+    "followTitle": "Follow us",
+    "rights": "All rights reserved.",
+    "authorized": "Customs clearing & forwarding agent operating under Bangladesh Customs regulations."
+  },
+  "offices": {
+    "dhaka": "Head Office — Dhaka",
+    "dhakaAddress": "Planners Tower (15th Floor), Room No. 01, 13/A Sonargaon Road, Dhaka",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "services": {
+    "customs": {
+      "name": "Customs Clearance",
+      "short": "Import and export clearance at every major gateway, handled by your authorized C&F agent."
+    },
+    "freight": {
+      "name": "Freight & Shipping",
+      "short": "Ocean, air and vessel freight, coordinated from booking through to delivery."
+    },
+    "specialized": {
+      "name": "Specialized Cargo",
+      "short": "Dangerous goods, ISO tanks and heavy machinery — cargo that needs extra care, handled properly."
+    },
+    "logistics": {
+      "name": "Logistics Solutions",
+      "short": "Complete post-clearance logistics, from the port gate to your door."
+    },
+    "consultancy": {
+      "name": "Trade Consultancy",
+      "short": "LC advisory plus accurate duty, tax and tariff calculation you can plan around."
+    },
+    "warehouse": {
+      "name": "Warehouse Management",
+      "short": "Secure storage and inventory support, keeping your cargo accounted for at every step."
+    }
+  },
+  "gateways": {
+    "chittagong": {
+      "name": "Chittagong Sea Port",
+      "desc": "Bangladesh's principal seaport for containerised and bulk import and export cargo."
+    },
+    "dhaka": {
+      "name": "Dhaka Airport",
+      "desc": "Fast air-freight clearance and forwarding for time-critical shipments."
+    },
+    "benapole": {
+      "name": "Benapole Land Port",
+      "desc": "The main land gateway for overland trade with India."
+    },
+    "icd": {
+      "name": "ICD Komolapur",
+      "desc": "Inland container depot clearance in the heart of Dhaka, close to your business."
+    },
+    "pangaon": {
+      "name": "Pangaon Inland Container Terminal",
+      "desc": "River-based container terminal near Dhaka, easing pressure on road corridors and Chittagong Port."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Customs Clearing · Freight · Logistics",
+      "title": "Smarter, greener customs clearing and logistics for Bangladesh's importers and exporters.",
+      "subtitle": "Blue Eco Shipping & Logistics clears, forwards and transports your import and export cargo across Chittagong, Dhaka Airport, Benapole and ICD Komolapur — with the efficiency, transparency and environmental care that modern trade demands."
+    },
+    "trust": {
+      "items": [
+        "Established 2026",
+        "Customs-authorized C&F agent",
+        "Air, sea & land gateways",
+        "24/7 client support"
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Services built around your cargo",
+      "subtitle": "End-to-end clearing, consulting, transport and storage — from a single, accountable partner."
+    },
+    "gateways": {
+      "eyebrow": "Where we operate",
+      "title": "Gateways we serve",
+      "subtitle": "A presence at Bangladesh's critical trade gateways means faster, smoother operations for you."
+    },
+    "stats": {
+      "eyebrow": "At a glance",
+      "title": "A modern trade-logistics partner",
+      "items": {
+        "since": {
+          "value": "2026",
+          "label": "Established"
+        },
+        "gateways": {
+          "value": "5",
+          "label": "Major gateways served"
+        },
+        "services": {
+          "value": "6",
+          "label": "Core services"
+        },
+        "support": {
+          "value": "24/7",
+          "label": "Client support"
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Why partner with us",
+      "title": "A fresh approach to trade logistics",
+      "items": {
+        "sustainable": {
+          "title": "Eco-conscious operations",
+          "desc": "Efficient routing, right-sized vehicles and less waste — logistics with a lighter footprint."
+        },
+        "reach": {
+          "title": "Every major gateway",
+          "desc": "Chittagong, Dhaka Airport, Benapole and ICD Komolapur — cleared and forwarded end to end."
+        },
+        "endToEnd": {
+          "title": "End-to-end service",
+          "desc": "From documentation and consulting to transport and warehousing, under one roof."
+        },
+        "responsive": {
+          "title": "24/7 responsiveness",
+          "desc": "A hands-on team offering round-the-clock support and real-time updates on your cargo."
+        },
+        "trusted": {
+          "title": "Transparent & accountable",
+          "desc": "Clear costs, honest timelines and a single point of ownership for every shipment."
+        }
+      }
+    },
+    "wing": {
+      "eyebrow": "Our transport partner",
+      "name": "BdShip Trans Service",
+      "line": "Through our MOU with BdShip Trans Service, we move your cargo from any port straight to your door — pickups to 40-ton trailers.",
+      "readMore": "Read more"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "What is Blue Eco Shipping & Logistics and what do you do?",
+          "a": "Blue Eco Shipping & Logistics is a Bangladesh-based customs clearing & forwarding (C&F), freight and logistics company. We handle the documentation, duty assessment and customs formalities needed to legally import or export goods, and we move that cargo door to door through our transport partner, BdShip Trans Service."
+        },
+        {
+          "q": "Which ports and gateways do you operate at?",
+          "a": "We clear and forward cargo at Chittagong Sea Port, Dhaka Airport, Benapole Land Port and ICD Komolapur, coordinated from our head office in Dhaka."
+        },
+        {
+          "q": "You were founded in 2026 — why should I trust you with my cargo?",
+          "a": "Blue Eco Shipping & Logistics is a new company built on hands-on trade-logistics expertise and a commitment to transparency. You get direct access to ownership, clear costs and honest timelines, with a single point of accountability for every shipment — not a number lost in a large queue."
+        },
+        {
+          "q": "What makes Blue Eco Shipping & Logistics \"eco\"?",
+          "a": "We plan efficient routes, match the right-sized vehicle to each load, and cut unnecessary trips and waste wherever we can. It keeps costs down for you and lightens the environmental footprint of moving your cargo."
+        },
+        {
+          "q": "Do you help with LC opening and duty calculation?",
+          "a": "Yes. Our trade consultancy team advises on Letter of Credit (LC) opening and calculates the applicable tax, tariff and duties in advance, so there are no surprises at clearance."
+        },
+        {
+          "q": "How do I get a quote or a status update?",
+          "a": "Send your cargo details through the quote form and we'll respond with a tailored solution, usually within one business day. For a status update, contact your Blue Eco Shipping & Logistics coordinator any time by phone or WhatsApp and we'll give you a real-time position."
+        }
+      ]
+    },
+    "closing": {
+      "title": "Ready to move your cargo?",
+      "subtitle": "Get a quote from a customs-authorized C&F partner built for efficient, transparent, eco-conscious trade."
+    }
+  },
+  "common": {
+    "servicesAll": "All services",
+    "talkToUs": "Talk to us",
+    "whatWeHandle": "What we handle",
+    "readMore": "Read more",
+    "backToTop": "Back to top",
+    "skipToContent": "Skip to content"
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "End-to-end logistics for import and export",
+    "subtitle": "From customs clearance to final delivery, Blue Eco Shipping & Logistics handles every step — so your cargo keeps moving.",
+    "additionalTitle": "More ways we help",
+    "additional": [
+      "Clearing & forwarding at air, sea & land ports",
+      "Heavy-lift carrying, handling & transportation",
+      "General cargo carrying",
+      "All kinds of export cargo handling"
+    ]
+  },
+  "serviceDetail": {
+    "customs": {
+      "tagline": "Authorized C&F agent operating under Bangladesh Customs regulations.",
+      "long": "Our team clears cargo through Chittagong Sea Port, Dhaka Airport, Benapole Land Port, ICD Komolapur and EPZ, with careful attention to accurate documentation and duty assessment. We also handle DG (dangerous goods) cargo, which needs additional paperwork and care to move safely and legally.",
+      "points": [
+        "Sea Port Clearance (Chittagong)",
+        "Airport Clearance (Dhaka)",
+        "Land Port Clearance (Benapole)",
+        "ICD Komolapur Clearance",
+        "EPZ Clearance",
+        "Economic Zone",
+        "DG Cargo Clearance / ISO Tank"
+      ],
+      "meta": "Authorized C&F agent clearing import and export cargo at Chittagong Port, Dhaka Airport, Benapole Land Port, ICD Komolapur and EPZ."
+    },
+    "freight": {
+      "tagline": "Ocean, air and vessel freight, coordinated from booking to delivery.",
+      "long": "We arrange ocean freight (FCL and LCL), air freight and vessel/ship agency services for cargo moving in and out of Bangladesh. Our team plans oversized or complex project shipments step by step, and we handle break bulk and general cargo of every kind.",
+      "points": [
+        "Ocean Freight (FCL & LCL)",
+        "Air Freight",
+        "Vessel & Ship Agency Services",
+        "Project Cargo Handling",
+        "Break Bulk Cargo Handling",
+        "General Cargo Carrying"
+      ],
+      "meta": "Ocean freight (FCL & LCL), air freight, vessel agency and project cargo, coordinated from booking to delivery in and out of Bangladesh."
+    },
+    "specialized": {
+      "tagline": "Expert handling for cargo that needs extra care.",
+      "long": "Some cargo needs more than standard clearance. Our team is equipped for chemical shipments, LNG/LPG equipment, DG (dangerous goods) cargo, heavy machinery such as boilers and generators, textile and RMG cargo, industrial raw materials, and branded consumer goods — each with its own handling rules and safety steps.",
+      "points": [
+        "Chemical Cargo",
+        "LNG/LPG Equipment",
+        "DG Cargo",
+        "ISO Tank",
+        "Heavy Machinery & Boilers",
+        "Textile & RMG Cargo",
+        "Industrial Raw Materials (Paints & Ceramics)",
+        "Branded Consumer Goods"
+      ],
+      "meta": "Expert handling for chemicals, LNG/LPG equipment, dangerous goods, heavy machinery and RMG cargo, each to its own safety rules."
+    },
+    "logistics": {
+      "tagline": "Complete logistics support, from the port gate to your door.",
+      "long": "Once your cargo clears customs, we take it the rest of the way. Transportation runs through our BdShip Trans Service partnership, and we offer secure warehousing with inventory support, distribution and full door-to-door delivery — backed by 24/7 support, so you always know where your cargo stands.",
+      "points": [
+        "Door-to-Door Delivery",
+        "Fleet Transportation",
+        "Warehousing & Storage",
+        "Distribution Network",
+        "Inventory Management Support",
+        "24/7 Cargo Support"
+      ],
+      "meta": "Door-to-door logistics after clearance: a partner fleet, secure warehousing, inventory management and distribution, with 24/7 support."
+    },
+    "consultancy": {
+      "tagline": "LC advisory and duty & tax calculation you can plan around.",
+      "long": "Our trade consultancy team guides you through Letter of Credit (LC) opening and calculates the tax, tariff and duties that apply to your cargo — so you can plan costs accurately and avoid delays at clearance.",
+      "points": [
+        "Letter of Credit (LC) opening advisory",
+        "Tax, tariff & duty calculation",
+        "Import/export documentation guidance",
+        "Cost planning before you ship"
+      ],
+      "meta": "Letter of Credit (LC) opening advisory plus accurate duty, tax and tariff calculation, so you can plan costs and avoid clearance delays."
+    },
+    "warehouse": {
+      "tagline": "Secure storage and inventory support, keeping your cargo accounted for.",
+      "long": "Our warehousing gives you a secure place to store cargo before, during and after clearance — whether you need short-term holding while paperwork is processed or long-term storage as part of your supply chain. We also manage inventory, tracking stock levels and coordinating pickup and dispatch, so the warehouse works as a real link in your logistics chain, not just a storage room.",
+      "points": [
+        "Short-Term Storage",
+        "Long-Term Storage",
+        "Inventory Tracking",
+        "Pickup & Dispatch Coordination",
+        "Secure, Monitored Facilities",
+        "Damage & Loss Prevention"
+      ],
+      "meta": "Secure short and long-term cargo storage with inventory management, stock tracking and dispatch coordination for your supply chain."
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A new generation of trade logistics in Bangladesh",
+    "subtitle": "A customs clearing, forwarding and logistics company built on efficiency, transparency and environmental responsibility.",
+    "foundedYear": "2026",
+    "foundedLabel": "Established",
+    "storyTitle": "Our story",
+    "story": [
+      "Blue Eco Shipping & Logistics was founded in 2026 by Engr. Mushfiq-Uz-Zaman Chowdhury with a clear conviction: that customs clearing and logistics in Bangladesh can be faster, more transparent and more environmentally responsible than the industry norm.",
+      "From our head office in Dhaka, we clear and forward cargo across Chittagong Sea Port, Dhaka Airport, Benapole Land Port and ICD Komolapur — and move it door to door through our transport partner, BdShip Trans Service. We pair hands-on trade expertise with modern systems and a lighter environmental footprint."
+    ],
+    "visionTitle": "Vision",
+    "vision": "To become Bangladesh's most trusted name in sustainable trade logistics — where efficiency, transparency and environmental responsibility move together.",
+    "missionTitle": "Mission",
+    "mission": [
+      "Deliver end-to-end clearing and forwarding with accuracy and speed.",
+      "Make import and export straightforward through expert LC advisory and duty/tax consultation.",
+      "Provide safe, reliable transportation and warehousing tailored to each client.",
+      "Reduce the environmental footprint of every shipment we handle."
+    ],
+    "philosophyTitle": "Our working philosophy",
+    "philosophy": "We become your business partner — understanding your product and your goals, then offering clear advice and practical solutions for your import and export cargo, backed by a hands-on team available 24/7.",
+    "wingTitle": "Our transport partner",
+    "wingName": "BdShip Trans Service",
+    "wing": "Through our MOU with BdShip Trans Service, we access a dedicated fleet of cover vans, mini cover vans, multi-purpose trucks and trailers — operated by skilled, careful drivers for safe delivery nationwide, with the right-sized vehicle assigned to every load.",
+    "leadershipTitle": "Leadership",
+    "leadershipSubtitle": "The person accountable for your cargo.",
+    "founderMessageTitle": "Founder's message",
+    "leader": {
+      "name": "Engr. Mushfiq-Uz-Zaman Chowdhury",
+      "role": "Founder & CEO",
+      "credentials": [
+        "B.Sc. in Electrical & Electronic Engineering (EEE), Independent University, Bangladesh (IUB)",
+        "Master in Port & Shipping Management (MPSM), Bangladesh Maritime University",
+        "Post Graduate Diploma, BUET"
+      ],
+      "bio": "Blue Eco Shipping & Logistics is led by its founder, who pairs an engineering background with formal training in port and shipping management. He oversees operations personally — keeping the company responsive, accountable and focused on doing clearing and forwarding the right way.",
+      "message": "Financial and economic development form the backbone of Bangladesh's growth, and both depend heavily on trade. Recognizing this, I founded Blue Eco Shipping & Logistics to strengthen the industrial sector through backward linkage support across international trade, import and export, and logistics services. Bangladesh's industries face a persistent challenge: fragmented, unreliable logistics that slow down production and raise costs. Raw materials arrive late, finished goods miss export windows, heavy equipment sits idle in transit, and inadequate warehousing disrupts supply chains. These inefficiencies weaken the competitiveness of our exporters on the global stage."
+    },
+    "structureTitle": "How we're organized",
+    "structure": "A single accountable head office in Dhaka coordinates clearance across Chittagong Sea Port, Dhaka Air Freight, Benapole Land Port and ICD Komolapur, supported by customs and jetty sarkers, documentation staff and skilled transport crews."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Let's move your cargo.",
+    "subtitle": "Reach us any time — our team responds around the clock from our Dhaka head office.",
+    "officesTitle": "Head office",
+    "sendMessageTitle": "Send us a message",
+    "sendMessageDesc": "For quotes with cargo details, use the Quote form. For anything else, we're all ears.",
+    "hoursLabel": "Hours",
+    "hoursValue": "24/7",
+    "getDirections": "Get directions",
+    "mapTitle": "Head office — Dhaka",
+    "quoteTeaserTitle": "Need a quote?",
+    "quoteTeaserDesc": "Tell us your service, port and cargo — we'll get back with a tailored solution."
+  },
+  "quotePage": {
+    "eyebrow": "Get a quote",
+    "title": "Tell us about your cargo.",
+    "subtitle": "Share a few details and we'll come back with a tailored solution — usually within one business day.",
+    "formTitle": "Quote request",
+    "asideTitle": "Prefer to talk?",
+    "asideDesc": "Reach us 24/7 by phone or message us on WhatsApp. We'll answer your questions before you commit."
+  },
+  "forms": {
+    "openQuote": "Open quote form",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "company": "Company",
+    "companyPlaceholder": "Company name (optional)",
+    "email": "Email",
+    "emailPlaceholder": "you@company.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+880 …",
+    "service": "Service",
+    "servicePlaceholder": "Select a service",
+    "port": "Port / gateway",
+    "portPlaceholder": "Select a gateway",
+    "cargoType": "Cargo type",
+    "cargoTypePlaceholder": "e.g. Heavy machinery, textiles, chemicals",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "details": "Details",
+    "detailsPlaceholder": "Origin/destination, timeline, weight or volume, any special handling…",
+    "submitContact": "Send message",
+    "submitQuote": "Request quote",
+    "submitting": "Sending…",
+    "successTitle": "Thanks — we've got your message.",
+    "successBody": "Our team will get back to you shortly. For anything urgent, WhatsApp us at",
+    "successAgain": "Send another",
+    "errorTitle": "Something went wrong.",
+    "errorBody": "Please try again, or reach us by phone or WhatsApp.",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "emailInvalid": "Please enter a valid email.",
+      "phoneRequired": "Please enter a phone number.",
+      "messageRequired": "Please write a short message.",
+      "serviceRequired": "Please select a service.",
+      "portRequired": "Please select a gateway.",
+      "cargoTypeRequired": "Please describe your cargo.",
+      "detailsRequired": "Please add a few details.",
+      "config": "Form is not yet configured. Add NEXT_PUBLIC_WEB3FORMS_KEY to .env.local."
+    }
+  },
+  "roadTransportPage": {
+    "eyebrow": "Road transportation",
+    "title": "Right-sized transport for every load.",
+    "subtitle": "From small parcels to 40-ton industrial loads — moved through our BdShip Trans Service partnership, with full control from pickup to delivery.",
+    "intro": [
+      "Blue Eco Shipping & Logistics moves cargo of every size across Bangladesh through our MOU with BdShip Trans Service, giving us direct access to a dedicated fleet built for exactly this kind of work. From small parcels to 40-ton industrial loads, this partnership lets us manage transport in-house rather than relying on scattered third-party carriers, which means fewer delays, better tracking, and full control over your cargo from pickup to delivery.",
+      "We match the right vehicle to the size of your consignment. A small order does not need a container truck, and a factory-scale shipment cannot move on a pickup van. Through our BdShip partnership, we assess your cargo volume and assign the right truck for the job, so you never pay for more capacity than you need, and your goods never travel in a vehicle too small to carry them safely. Right-sizing every trip also keeps fuel use and emissions down.",
+      "We deliver from any port in Bangladesh, Chittagong Sea Port, Dhaka Airport, Benapole Land Port, or ICD Komolapur, to anywhere in the country. Every delivery is handled by trained, careful drivers who understand the value and urgency of the cargo they carry. Backed by our MOU with BdShip, once we commit to a delivery timeline, we hold to it."
+    ],
+    "fleetTitle": "Fleet breakdown",
+    "fleetSubtitle": "By vehicle type — we assign the right one to your consignment.",
+    "capacityLabel": "Capacity",
+    "fleet": {
+      "pickup": {
+        "name": "Small Pickup",
+        "desc": "Our small pickups are built for light, fast deliveries — the right choice for sample shipments, small cartons, retail stock and urgent city deliveries where speed matters more than volume. They let us dispatch quickly without tying up a larger vehicle.",
+        "capacity": "up to 2 tons"
+      },
+      "truck": {
+        "name": "Truck",
+        "desc": "Our mid-size trucks carry medium-volume consignments such as palletised goods, packaged retail products and general cargo that outgrows a pickup but does not need a full container truck. This size covers most day-to-day distribution across the country.",
+        "capacity": "up to 5 tons"
+      },
+      "containerTruck": {
+        "name": "Container Truck",
+        "desc": "These trucks move full container loads directly from port to factory or warehouse. Built for standard shipping containers, they are the backbone of our port-to-door container transport, keeping your goods sealed and secure from the moment they leave the port.",
+        "capacity": "up to 13 tons"
+      },
+      "trailer": {
+        "name": "Trailer",
+        "desc": "Our trailers handle the heaviest cargo we move — industrial machinery, boilers, steel plates and other oversized equipment. This is our largest-capacity group, built specifically for heavy-lift work.",
+        "capacity": "up to 40 tons"
+      },
+      "lngTanker": {
+        "name": "LNG Tanker Truck",
+        "desc": "Our specialized LNG tanker trucks transport liquid gas cargo safely and in compliance with strict handling regulations. They are reserved for LNG and LPG shipments that require this specific equipment and trained handling procedures.",
+        "capacity": "up to 26,000 litres"
+      }
+    }
+  },
+  "brand": {
+    "name": "Blue Eco Shipping & Logistics",
+    "first": "Blue Eco",
+    "rest": "Shipping & Logistics"
+  },
+  "notFound": {
+    "title": "This page has drifted off course.",
+    "body": "The page you're looking for doesn't exist or has moved. Let's get you back on route.",
+    "home": "Back to home"
+  }
+}

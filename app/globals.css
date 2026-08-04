@@ -1,0 +1,237 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Brand color utilities (bg-deep, text-tide, …) */
+  --color-abyss: var(--abyss);
+  --color-deep: var(--deep);
+  --color-tide: var(--tide);
+  --color-aqua: var(--aqua);
+  --color-eco: var(--eco);
+  --color-leaf: var(--leaf);
+  --color-mist: var(--mist);
+  --color-slate: var(--slate);
+  --color-steel: var(--steel);
+  --color-success: var(--success);
+  --color-error: var(--error);
+
+  /* shadcn semantic tokens -> brand */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Fonts */
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-space-grotesk);
+  --font-bangla: var(--font-noto-bengali);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Type scale */
+  --text-eyebrow: 0.8125rem;
+  --text-eyebrow--line-height: 1.4;
+  --text-eyebrow--letter-spacing: 0.16em;
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.3;
+  --text-h2: clamp(1.8rem, 1.2rem + 2.2vw, 2.4rem);
+  --text-h2--line-height: 1.12;
+  --text-h2--letter-spacing: -0.02em;
+  --text-hero: clamp(2.35rem, 1.4rem + 3.6vw, 3.75rem);
+  --text-hero--line-height: 1.04;
+  --text-hero--letter-spacing: -0.03em;
+
+  /* Radius — rounder, friendlier eco feel */
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.5);
+  --radius-2xl: calc(var(--radius) * 2);
+
+  /* Teal-tinted shadows */
+  --shadow-card: 0 1px 2px 0 rgb(6 48 44 / 0.06);
+  --shadow-card-hover: 0 18px 40px -16px rgb(6 48 44 / 0.28);
+}
+
+:root {
+  --radius: 0.95rem; /* ~15px — rounded */
+
+  /* Blue Eco Shipping & Logistics palette — turquoise #40E0D0 + sky blue #87CEEB
+     (the two brand colors as bright accents; darker shades derived
+     from the same hues for readable text/primary on white). */
+  --abyss: #0a3d4a; /* deepest teal — hero/footer ground */
+  --deep: #0e6d78; /* deep turquoise — headings, primary */
+  --tide: #108a94; /* turquoise — links, accents */
+  --aqua: #40e0d0; /* turquoise (brand) — bright highlights on dark */
+  --eco: #2bb3c4; /* aqua-blue bridge — signature motif */
+  --leaf: #87ceeb; /* sky blue (brand) — glows */
+  --mist: #e9f8f7; /* faint turquoise tint — light surface */
+  --slate: #17282b; /* body text */
+  --steel: #55696d; /* muted text */
+  --success: #2e9e5b;
+  --error: #d64545;
+
+  /* shadcn semantic mapping (light only) */
+  --background: #ffffff;
+  --foreground: #17282b; /* slate */
+  --card: #ffffff;
+  --card-foreground: #17282b;
+  --popover: #ffffff;
+  --popover-foreground: #17282b;
+  --primary: #0e6d78; /* deep turquoise */
+  --primary-foreground: #ffffff;
+  --secondary: #e9f8f7; /* mist */
+  --secondary-foreground: #0e6d78;
+  --muted: #e9f8f7; /* mist */
+  --muted-foreground: #55696d; /* steel */
+  --accent: #d2f1ef; /* light turquoise tint (hover surfaces) */
+  --accent-foreground: #0e6d78;
+  --destructive: #d64545; /* error */
+  --border: #cfe8e6; /* hairline turquoise-gray */
+  --input: #cfe8e6;
+  --ring: #108a94; /* tide focus ring */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading tracking-tight text-deep;
+    font-weight: 600;
+  }
+  ::selection {
+    background-color: var(--tide);
+    color: #fff;
+  }
+  /* Bangla locale: Noto Sans Bengali for both headings and body */
+  [lang="bn"],
+  [lang="bn"] :is(h1, h2, h3, h4) {
+    font-family: var(--font-bangla);
+  }
+}
+
+/* ---------------------------------------------------------------
+   Motion: gentle fade-up on scroll, hero rise on load, hover lifts.
+   Prefix: be- (Blue Eco Shipping & Logistics). Nothing bouncy, no parallax.
+   --------------------------------------------------------------- */
+@layer components {
+  /* Scroll reveal — .be-reveal starts hidden, .is-in plays it. */
+  .be-reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .be-reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Stagger: animate direct children in sequence instead of the block. */
+  .be-stagger {
+    opacity: 1;
+    transform: none;
+  }
+  .be-stagger > * {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .be-stagger.is-in > * {
+    opacity: 1;
+    transform: none;
+  }
+  .be-stagger.is-in > *:nth-child(1) { transition-delay: 0ms; }
+  .be-stagger.is-in > *:nth-child(2) { transition-delay: 70ms; }
+  .be-stagger.is-in > *:nth-child(3) { transition-delay: 140ms; }
+  .be-stagger.is-in > *:nth-child(4) { transition-delay: 210ms; }
+  .be-stagger.is-in > *:nth-child(5) { transition-delay: 280ms; }
+  .be-stagger.is-in > *:nth-child(6) { transition-delay: 350ms; }
+  .be-stagger.is-in > *:nth-child(7) { transition-delay: 420ms; }
+  .be-stagger.is-in > *:nth-child(8) { transition-delay: 490ms; }
+  .be-stagger.is-in > *:nth-child(n + 9) { transition-delay: 560ms; }
+
+  /* Hero: rise on load, lightly staggered by depth. */
+  .be-rise {
+    animation: be-rise 0.85s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+  .be-rise-1 { animation-delay: 0.05s; }
+  .be-rise-2 { animation-delay: 0.15s; }
+  .be-rise-3 { animation-delay: 0.25s; }
+  .be-rise-4 { animation-delay: 0.35s; }
+
+  /* Card hover: subtle lift, teal-tinted shadow. */
+  .be-lift {
+    transition:
+      transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1),
+      box-shadow 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .be-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card-hover);
+  }
+}
+
+@keyframes be-rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Never leave content stuck invisible. */
+  .be-reveal,
+  .be-stagger > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .be-lift:hover {
+    transform: none;
+  }
+}
