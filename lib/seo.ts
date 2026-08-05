@@ -2,14 +2,30 @@ import { routing } from "@/i18n/routing";
 import { SERVICES } from "@/lib/site-data";
 
 /**
- * Public site URL for canonical + OG + sitemap. Reads NEXT_PUBLIC_SITE_URL
- * (Vercel URL or the future blueeco.com.bd); falls back to localhost.
+ * Public site URL for canonical + OG + sitemap. This is server-only (called
+ * from generateMetadata / sitemap.ts / robots.ts), so it can safely read
+ * non-public Vercel env vars.
+ *
+ * Priority:
+ *  1. NEXT_PUBLIC_SITE_URL      — explicit override (the custom domain)
+ *  2. VERCEL_PROJECT_PRODUCTION_URL — Vercel's stable production domain
+ *  3. VERCEL_URL                — the per-deployment Vercel URL
+ *  4. http://localhost:3000     — local dev ONLY
+ *
+ * The Vercel fallbacks are the safety net: if the env var is ever missing on a
+ * production deploy, canonical/sitemap/OG resolve to the real domain instead of
+ * localhost (which would silently de-index the whole site).
  */
 export function siteUrl(): string {
-  // Use `||` (not `??`) so an empty-string env var falls back too.
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000"
-  );
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "");
+  if (explicit) return explicit;
+
+  // These are bare hostnames (no protocol) supplied by Vercel.
+  const vercelHost =
+    process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
+  if (vercelHost) return `https://${vercelHost.replace(/\/+$/, "")}`;
+
+  return "http://localhost:3000";
 }
 
 /** All localized paths for a given route ("/", "/services", …). */
